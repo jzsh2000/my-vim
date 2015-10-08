@@ -56,6 +56,7 @@ filetype on
 filetype indent on
 filetype plugin on
 
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 runtime! ftplugin/man.vim

@@ -59,8 +59,6 @@ filetype plugin on
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
-runtime! ftplugin/man.vim
-
 " if version >= 603
 "     set helplang=cn
 " endif

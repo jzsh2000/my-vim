@@ -59,6 +59,10 @@ filetype plugin on
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+if &shell =~# 'fish$'
+    set shell=bash
+endif
+
 " if version >= 603
 "     set helplang=cn
 " endif

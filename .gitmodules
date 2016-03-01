@@ -16,3 +16,6 @@
 [submodule "bundle/vim-qargs"]
 	path = bundle/vim-qargs
 	url = https://github.com/nelstrom/vim-qargs
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround

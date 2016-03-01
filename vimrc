@@ -1,5 +1,5 @@
 " Last modified:
-" 2014年 09月 29日 星期一 16:20:49 CST
+" Tue Mar  1 20:43:07 CST 2016
 colorscheme desert
 
 set nocompatible
@@ -56,8 +56,11 @@ filetype on
 filetype indent on
 filetype plugin on
 
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
+execute pathogen#infect()
+
+" set background to red when line length exceeds 80
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
 
 if &shell =~# 'fish$'
     set shell=bash

@@ -5,12 +5,12 @@ colorscheme desert
 set nocompatible
 set modeline
 set number
-set history=200
+set history=1000
 set autoindent
 set smartindent
-set tabstop=8
 set softtabstop=4
 set shiftwidth=4
+set expandtab
 set showmatch
 set ruler
 set hlsearch
@@ -23,6 +23,7 @@ set backspace=indent,eol,start
 set wildmenu
 set wildmode=full
 set fileencodings=utf-8-bom,ucs-bom,utf-8,cp936,gb18030,ucs,big5
+set formatoptions+=mB1
 
 " set grepprg=ack\ --nogroup\ --column\ $*
 " set grepformat=%f:%l:%c:%m

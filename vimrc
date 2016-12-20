@@ -24,6 +24,7 @@ set wildmenu
 set wildmode=full
 set fileencodings=utf-8-bom,ucs-bom,utf-8,cp936,gb18030,ucs,big5
 set formatoptions+=mB1
+set nrformats=
 
 " set grepprg=ack\ --nogroup\ --column\ $*
 " set grepformat=%f:%l:%c:%m
@@ -45,12 +46,6 @@ xnoremap & :&&<CR>
 
 " let mapleader=","
 " noremap \ ,
-
-let Tlist_Show_One_File=1
-let Tlist_Exit_OnlyWindow=1
-let Tlist_Use_Right_Window=1
-let Tlist_GainFocus_On_ToggleOpen=1
-let Tlist_Close_On_Select=1
 
 syntax on
 filetype on

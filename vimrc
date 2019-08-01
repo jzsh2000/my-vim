@@ -31,7 +31,7 @@ set nrformats=
 
 " autocmd filetype text setlocal textwidth=78
 "autocmd BufWritePost * call system("ctags -R")
-autocmd filetype r set commentstring=#\ %s
+autocmd FileType r set commentstring=#\ %s
 
 map <Up> gk
 map <Down> gj
